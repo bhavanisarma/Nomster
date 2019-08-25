@@ -78,7 +78,9 @@
 <div class="clear"></div>
 <div class="row">
 
+<div class="booyah-box col-10 offset-1">
 <% @place.comments.each do |comment| %>
+
   <div class="col-12 col-sm-6">
     <blockquote>
       <% if comment.humanized_rating.present? %>
@@ -90,6 +92,7 @@
     </blockquote>
   </div>
 <% end %>
+</div>
 </div>
 
 
@@ -126,7 +129,7 @@
 </div>
 <div class="clear"></div>
 <div class="row">
-
+<div class="booyah-box col-10 offset-1">
 <% @place.photos.each do |photo| %>
   <div>
     <blockquote>
@@ -143,6 +146,7 @@
     </blockquote>
   </div>
 <% end %>
+</div>
 
 
 
